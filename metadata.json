@@ -1,0 +1,6 @@
+{
+  "name": "TASK_CORE OS",
+  "description": "A retro-inspired task management system with a classic 90s desktop aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["REMOTELY_HOSTED"]
+}
