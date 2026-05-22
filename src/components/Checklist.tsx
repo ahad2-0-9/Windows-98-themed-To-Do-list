@@ -5,14 +5,7 @@
 
 import React from 'react';
 import { Square, CheckSquare, Pencil, Eraser, Type, ZoomIn, Pipette, Palette, Image as ImageIcon, Trash2 } from 'lucide-react';
-
-interface Task {
-  id: string;
-  name: string;
-  note?: string;
-  checked?: boolean;
-  faded?: boolean;
-}
+import type { Task } from '../types';
 
 interface ChecklistProps {
   tasks: Task[];

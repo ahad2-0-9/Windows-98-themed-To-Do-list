@@ -4,16 +4,7 @@
  */
 
 import React from 'react';
-
-interface Task {
-  id: string;
-  name: string;
-  size: string;
-  type: string;
-  modified: string;
-  icon: string;
-  checked?: boolean;
-}
+import type { Task } from '../types';
 
 import { FileText, Image as ImageIcon, Undo, Scissors, Copy, Trash2, Info, List as ListIcon, Check } from 'lucide-react';
 

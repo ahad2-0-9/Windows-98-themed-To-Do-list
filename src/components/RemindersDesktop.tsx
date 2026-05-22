@@ -7,14 +7,7 @@ import React from 'react';
 import Window from './Window';
 import LogWindow from './LogWindow';
 import { AlertTriangle, Info, StickyNote, Bug } from 'lucide-react';
-
-interface Reminder {
-  id: string;
-  title: string;
-  text: string;
-  type: string;
-  pos: { top: string, left: string };
-}
+import type { Reminder } from '../types';
 
 interface RemindersDesktopProps {
   reminders: Reminder[];
